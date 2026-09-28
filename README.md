@@ -4,7 +4,7 @@ RAG-based clinical document Q&A. Flask + ReactJS interface, FAISS for vector
 search, MongoDB for document/chunk/query storage, Gemini for embeddings and
 generation.
 
-# 3. Push this project to GitHub
+### 3. Push this project to GitHub
 
 ```bash
 cd clinical-qa-app
@@ -15,7 +15,7 @@ gh repo create clinical-qa-assistant --public --source=. --push
 # (or create a repo on github.com and `git remote add origin <url> && git push -u origin main`)
 ```
 
-# Local development (optional, before deploying)
+### Local development (optional, before deploying)
 
 Backend:
 ```bash
